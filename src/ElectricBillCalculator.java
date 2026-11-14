@@ -105,7 +105,7 @@ public class ElectricBillCalculator {
                 electricity_charge,
                 late_payment_fee,
                 total_amount_due,
-                payment_overdue.equals("Y") ? "Previous bill... OVERDUE" : "Previous bill... paid"
+                payment_overdue.equals("Y") ? "Previous bill... OVERDUE (you know what that means...)" : "Previous bill... paid"
             );
 
             JOptionPane.showMessageDialog(
